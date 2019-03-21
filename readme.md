@@ -10,9 +10,8 @@
     
     Сборка проекта с помощью Parcel. 
 
-# Пример экранов проекта:
-    
-Основной экран
+# Примеры экранов проекта:
+
 <div style="diplay: flex;">
     <img src="https://pp.userapi.com/c845018/v845018769/1ced12/cMzalFw0Qz0.jpg" width="40%"/>
     <img src="https://pp.userapi.com/c854328/v854328198/90d3/wuFtQbe6mcg.jpg" width="20%"/>
