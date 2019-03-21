@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico" rel="stylesheet">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=<58b94347-a9b7-4b2b-9c2a-ec8ca33a3dd1>&lang=ru_RU" type="text/javascript"></script>
+    <title>Cake Me</title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/png">
+</head>
+<body class="">
+    <div class="background d-flex h-100 mx-auto flex-column">
+        <nav class="navbar navbar-expand-md navbar-dark px-5">
+            <a href="" class="navbar-brand">
+                <img src="./img/logo4.svg" height="50px" alt="logo"/>
+                <h4 class="d-inline-block ml-4 align-bottom">Cake Me</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="py-1 px-2 mt-auto ">
+                        <a class="nav-link active" href="">Главная</a>
+                    </li>
+                    <li class="py-1 px-2 ">
+                        <a class="nav-link" href="#about">О нас</a>
+                    </li>
+                    <li class="py-1 px-2 ">
+                        <a class="nav-link" href="#how-to-order">Как сделать заказ?</a>
+                    </li>
+                    <li class="py-1 px-2 ">
+                        <a class="nav-link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="ml-auto pr-md-5 mr-md-5 mt-4 mr-3 pr-0">
+            <h5> Исключительная домашняя выпечка </h5>
+            <p class="text-right">Сделано с душой</p>
+        </div>
+    </div>
+    
+    <section class="p-4" id="about">
+        <h2 class="text-center">О нас</h2>
+        <div class="row pb-3 justify-content-between">
+
+            <div class="card col-lg-3 col-sm-6 col-12">
+                <img src="./img/card1.jpg" class="card-img-top">
+                <div class="card-body mt-4">
+                    <h5 class="card-title">Красиво и вкусно</h5>
+                    <p class="card-text">
+                        Для нас торты — это не просто сладости, это еще и творчество, 
+                        в котором мы воплощаем все наши самые удивительные идеи, 
+                        стремясь достигнуть совершенства, поэтому
+                        каждый десерт обладает собственной индивидуальностью и неповторимым характером.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-sm-6 col-12">
+                <div class="card-body mb-4">
+                    <h5 class="card-title">Только свежие ингредиенты</h5>
+                    <p class="card-text">
+                        В своих десертах мы используем свежие и только натуральные ингредиенты:
+                        сахар, мука, яйца, сливки, мёд, ягоды — ничего вредного или искусственного.
+                        А получаем их прямиком от производителей, 
+                        с которыми всегда налаживаем и поддерживаем дружеские отношения.
+                    </p>
+                </div>
+                <img src="./img/card3.jpg" class="card-img-bottom">
+            </div>
+
+            <div class="card col-lg-3 col-sm-6 col-12">
+                <img src="./img/card2.jpg" class="card-img-top">
+                <div class="card-body mt-4">
+                    <h5 class="card-title">Sed mattis imperdiet</h5>
+                    <p class="card-text">
+                        Sed mattis imperdiet purus, at condimentum dui ultrices at. Nullam tincidunt massa id leo luctus pharetra. In dignissim vehicula tortor, ac euismod risus ullamcorper vel. Fusce a dignissim augue. Quisque quis lectus convallis, auctor eros eu, pretium sapien. Sed ullamcorper quam orci, nec maximus lorem viverra quis. Pellentesque nec tempor nulla. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-sm-6 col-12">
+                <div class="card-body mb-4">
+                    <h5 class="card-title">Viverra suspendisse</h5>
+                    <p class="card-text">
+                        Proin nibh nisl condimentum id venenatis a condimentum vitae. Euismod nisi porta lorem mollis aliquam ut porttitor. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Purus in massa tempor nec feugiat nisl pretium fusce. Blandit massa enim nec dui nunc mattis.
+                    </p>
+                </div>
+                <img src="./img/card4.jpeg" class="card-img-bottom">
+            </div>
+        </div>
+    </section>
+
+    <section class="p-3 h-100" id="how-to-order">
+        <div class="row h-100">
+            <article class="d-flex flex-column col-lg-7">
+                <h2 class="text-center">Как сделать заказ?</h2>
+                <div class="d-flex flex-column py-4 align-items-center my-auto">
+                    <div class="d-flex w-100 justify-content-around">
+                        <p class="col-6 col-md-4 text-center my-auto">
+                            Заполните поля оформления заказа, 
+                            либо просто закажите звонок.
+                        </p>
+                        <div class="image-cropper after">
+                            <img src="./img/clipboard.svg"/>
+                        </div>
+                        <div class="d-none d-md-block col-4"></div>
+                    </div>
+
+                    <div class="fillered d-flex d-md-none flex-column">
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="d-flex my-md-5  py-md-3 w-100 justify-content-around">
+                        <div class="d-none d-md-block col-4"></div>
+                        <div class="image-cropper after before">
+                            <img src="./img/hand-shake.svg"/>
+                        </div>
+                        <p class="col-6 col-md-4 text-center my-auto">
+                            Ваш заказ оформлен. Мы уже начали готовить ваш вкусный десерт
+                        </p>
+                    </div>
+
+                    <div class="fillered d-flex d-md-none flex-column">
+                        <div>&nbsp;</div>
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="d-flex w-100 justify-content-around">
+                        <p class="col-6 col-md-4 text-center my-auto">
+                            В назначенное время курьер доставит вам заказ. Приятного  аппетита!
+                        </p>
+                        <div class="image-cropper before">
+                            <img src="./img/order.svg"/>
+                        </div>
+                        <div class="d-none d-md-block col-4"></div>
+                    </div>
+                </div>
+            </article>
+            <div class="side-img d-none d-lg-block col-5 rounded">
+                &nbsp;
+            </div>
+        </div>
+    </section>
+
+    <section class="p-4 h-100" id="contacts">
+        <h2 class="text-center">Остались вопросы?</h2>
+        <p class="text-center">Свяжитесь с нами</p>
+        <div class="contacts row justify-content-around mt-4">
+            <div class="col">
+                <img src="./img/mail3.svg" class="img-fluid">
+                <h5>ПОЧТА</h5>
+                <p>contacs@cakeme.ru</p>
+            </div>
+            <div class="col">
+                <img src="./img/call.svg">
+                <div class="in-bordered row w-50 justify-content-around align-items-center flex-column flex-md-row mt-4">
+                    <img src="./img/viber-logo.svg" class="small-img">
+                    <img src="./img/telegram-logo.svg" class="small-img">
+                    <img src="./img/whatsup-logo.svg" class="small-img">
+                </div>
+                <h5>Телефон</h5>
+                <p>+7962345345354</p>
+            </div>
+            <div class="col">
+                <img src="./img/place.svg">
+                <h5>Адрес</h5>
+                <p class="text-center">г.Йошкар-Ола, Комсомольская, 112А</p>
+            </div>
+        </div>
+        <hr>
+        <div id="map" class="w-100 h-50 my-5"></div>
+        <div class="row col-6 col-lg-3  mb-5 justify-content-around mx-auto social in-bordered">
+            <img src="./img/facebook-logo.svg">
+            <img src="./img/vk-logo.svg">
+            <img src="./img/youtube-logo.svg">
+            <img src="./img/instagram-logo.svg">
+            <img src="./img/goggle-logo.svg">
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
